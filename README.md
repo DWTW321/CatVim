@@ -18,7 +18,7 @@
 
 ## About
 
-NeoVim configuration for cat lovers ( _this is my personal NeoVim configuation_ ). So far it only contains configuration files, I plan to add an install script ( initially for Windows and then for Linux ) and better commented configuation files. I will also expand the README with installation instructions. The goal of this "project" is to give people who are new to NeoVim a place to start.❎
+NeoVim configuration for cat lovers ( _this is my personal NeoVim configuation_ ). So far it only contains configuration files, I plan to add an install script ( initially for Windows and then for Linux ) and better commented configuation files. I will also expand the README with installation instructions. The goal of this "project" is to give people who are new to NeoVim a place to start.
 
 ## Features
 
