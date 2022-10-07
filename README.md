@@ -1,8 +1,8 @@
-<center>
+<br/>
 
-<img src="logo.PNG" height="250">
-
-</center>
+<p align="center">
+ <img src="logo.PNG" height="250">
+</p>
 
 
 ## Table Of Contents
