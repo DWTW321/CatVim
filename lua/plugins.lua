@@ -48,6 +48,7 @@ return require('packer').startup(function()
       use 'lewis6991/impatient.nvim'
       use 'akinsho/toggleterm.nvim'
       use 'RishabhRD/popfix'
+      use 'vimwiki/vimwiki'
 
       -- LSP, Lint & Formatter
       use { 'VonHeikemen/lsp-zero.nvim',

@@ -8,7 +8,7 @@
 ## Table Of Contents
 
 - [About](#about)
-- [Features](#feature)
+- [Features](#features)
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
 - [Documentation](#documentation)
@@ -18,7 +18,7 @@
 
 ## About
 
-NeoVim configuration for cat lovers ( _this is my personal NeoVim configuation_ ). So far it only contains configuration files, I plan to add an install script ( initially for Windows and then for Linux ) and better commented configuation files. I will also expand the README with installation instructions. The goal of this "project" is to give people who are new to NeoVim a place to start.
+NeoVim configuration for cat lovers ( _this is my personal NeoVim configuration_ ). So far it only contains configuration files, I plan to add an install script ( initially for Windows and then for Linux ) and better commented configuration files. I will also expand the README with installation instructions. The goal of this "project" is to give people who are new to NeoVim a place to start.
 
 ## Features
 
@@ -61,11 +61,11 @@ _Coming soon!_
 
 ## Status
 
-This project is really early in it's lifespan. There is a lot of cleaning up and improvement to be done.
+This project is really early in its lifespan. There is a lot of cleaning up and improvement to be done.
 
 ### Todo
 
-- Improve config so that it is easily reproducable on various computers and opereating systems and build an auto install script.
+- Improve config so that it is easily reproducible on various computers and opereating systems and build an auto install script.
 - Improve README and add documentation.
 - Add useful comments to the config files.
 - Make a website.
