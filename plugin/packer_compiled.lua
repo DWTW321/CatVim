@@ -175,11 +175,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["nvim-base16"] = {
-    loaded = true,
-    path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-base16",
-    url = "https://github.com/RRethy/nvim-base16"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
@@ -246,16 +241,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["vim-devicons"] = {
-    loaded = true,
-    path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
-    url = "https://github.com/ryanoasis/vim-devicons"
-  },
-  ["vim-emoji"] = {
-    loaded = true,
-    path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-emoji",
-    url = "https://github.com/junegunn/vim-emoji"
-  },
   ["vim-markdown"] = {
     loaded = true,
     path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-markdown",
@@ -270,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-table-mode",
     url = "https://github.com/dhruvasagar/vim-table-mode"
+  },
+  vimwiki = {
+    loaded = true,
+    path = "C:\\Users\\DWTW\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimwiki",
+    url = "https://github.com/vimwiki/vimwiki"
   },
   ["which-key.nvim"] = {
     loaded = true,
