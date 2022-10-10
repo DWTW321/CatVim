@@ -57,7 +57,7 @@ There's much more (more detailed information about features and how to enable th
 
 ## Documentation
 
-_Coming soon!_
+_Coming soon!_ 👷
 
 ## Status
 
