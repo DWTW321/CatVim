@@ -3,12 +3,40 @@ return require('packer').startup(function()
       -- Packer
       use 'wbthomason/packer.nvim'
 
+      -- Treesitter
+      use {'nvim-treesitter/nvim-treesitter',
+        config = function ()
+          require('nvim-treesitter.configs').setup({
+            highlight = {
+              enable = true,
+              additional_vim_regex_highlighting = false,
+            }
+          })
+        end
+      }
+
       -- Look and Feel
       use 'glepnir/dashboard-nvim'
       use { 'catppuccin/nvim', as = 'catppuccin',
         config = function()
           vim.g.catppuccin_flavour = 'mocha' -- latte, frappe, macchiato, mocha
-          require('catppuccin').setup()
+          require('catppuccin').setup({
+            dim_inactive = {
+              enabled = true,
+              shade = "dark",
+              percentage = 0.25,
+            },
+            integrations = {
+              tree = true,
+              treesitter = true,
+              dashboard = true,
+              cmp = true,
+              telescope = true,
+              vimwiki = true,
+              which_key = true,
+              markdown = true,
+            },
+          })
           vim.api.nvim_command 'colorscheme catppuccin'
         end
       }
@@ -40,6 +68,7 @@ return require('packer').startup(function()
       use 'ellisonleao/glow.nvim'
       use 'dhruvasagar/vim-table-mode'
       use 'mzlogin/vim-markdown-toc'
+      use 'Pocco81/true-zen.nvim'
 
       -- Misc
       use 'ziontee113/icon-picker.nvim'
