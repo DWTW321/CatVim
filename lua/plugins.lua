@@ -27,7 +27,7 @@ return require('packer').startup(function()
               percentage = 0.25,
             },
             integrations = {
-              tree = true,
+              nvimtree = true,
               treesitter = true,
               dashboard = true,
               cmp = true,
@@ -35,6 +35,7 @@ return require('packer').startup(function()
               vimwiki = true,
               which_key = true,
               markdown = true,
+              masion = true,
             },
           })
           vim.api.nvim_command 'colorscheme catppuccin'
@@ -77,7 +78,7 @@ return require('packer').startup(function()
       use 'lewis6991/impatient.nvim'
       use 'akinsho/toggleterm.nvim'
       use 'RishabhRD/popfix'
-      use 'vimwiki/vimwiki'
+      -- use 'vimwiki/vimwiki'
 
       -- LSP, Lint & Formatter
       use { 'VonHeikemen/lsp-zero.nvim',
