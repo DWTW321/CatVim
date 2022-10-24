@@ -5,6 +5,7 @@ local A   = vim.api
 
 require("impatient")
 
+o.cmdheight = 0
 o.termguicolors = true
 o.timeoutlen = 500
 o.updatetime = 200

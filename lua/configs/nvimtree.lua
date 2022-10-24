@@ -8,6 +8,7 @@ require("nvim-tree").setup ({
   update_cwd = true,
   respect_buf_cwd = true,
   sync_root_with_cwd = true,
+  open_on_setup = true,
   diagnostics = {
     enable = true,
     show_on_dirs = true,
@@ -29,7 +30,7 @@ require("nvim-tree").setup ({
     centralize_selection = true,
     side = "left",
     signcolumn = "auto",
-    width = 20,
+    width = 30,
     hide_root_folder = false,
   },
   renderer = {

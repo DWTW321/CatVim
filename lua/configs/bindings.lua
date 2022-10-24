@@ -86,5 +86,8 @@ wk.register ({
         W = {"<cmd>Cheat<cr>", "CheatListWithoutComments"},
         },
     T = {"<cmd>ToggleTerm<cr>", "Terminal"},
-
+    w = {
+        name = "Wiki",
+        w = {"<cmd>:edit C:\\Users\\DWTW\\Documents\\Notes\\index.md<cr>", "TODO"},
+    },
 }, { prefix = "<leader>" })

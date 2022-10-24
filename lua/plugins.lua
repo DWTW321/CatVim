@@ -17,35 +17,31 @@ return require('packer').startup(function()
 
       -- Look and Feel
       use 'glepnir/dashboard-nvim'
-      use { 'catppuccin/nvim', as = 'catppuccin',
-        config = function()
-          vim.g.catppuccin_flavour = 'mocha' -- latte, frappe, macchiato, mocha
-          require('catppuccin').setup({
-            dim_inactive = {
-              enabled = true,
-              shade = "dark",
-              percentage = 0.25,
-            },
-            integrations = {
-              nvimtree = true,
-              treesitter = true,
-              dashboard = true,
-              cmp = true,
-              telescope = true,
-              vimwiki = true,
-              which_key = true,
-              markdown = true,
-              masion = true,
-            },
-          })
-          vim.api.nvim_command 'colorscheme catppuccin'
-        end
-      }
+     use { "catppuccin/nvim",
+       as = "catppuccin",
+       config = function()
+         require("catppuccin").setup {
+           flavour = "mocha", -- mocha, macchiato, frappe, latte
+           integrations = {
+               dashboard = true,
+               markdown = true,
+               mason = true,
+               cmp = true,
+               nvimtree = true,
+               telescope = true,
+               treesitter = true,
+               which_key = true,
+           },
+           }
+           vim.api.nvim_command "colorscheme catppuccin"
+       end
+     }
+
       use { 'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
       }
       -- using packer.nvim
-      use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+      use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'kyazdani42/nvim-web-devicons'}
       use 'stevearc/dressing.nvim'
 
       -- Telescope

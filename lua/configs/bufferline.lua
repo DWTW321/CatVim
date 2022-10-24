@@ -17,7 +17,7 @@ require("bufferline").setup {
   options = {
     mode = "buffers",
     numbers = "none",
-    separator_style = "thin", -- thin, thick, padded_slant, slant
+    separator_style = "thick", -- thin, thick, padded_slant, slant
     diagnostics = "nvim_lsp",
     diagnostics_update_in_insert = false,
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
@@ -26,7 +26,7 @@ require("bufferline").setup {
     offsets = {
       {
         filetype = "NvimTree",
-        text = "File Explorer",
+        text = "",
         separator = true
       }
     },
