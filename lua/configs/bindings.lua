@@ -39,6 +39,7 @@ wk.register ({
         S = {"<cmd>PackerSync<cr>", "Sync"},
         u = {"<cmd>PackerUpdate<cr>", "Update"},
     },
+    P = {"<cmd>Telescope commands<cr>", "Command Palette"},
     a = {
         name = "Mason", -- Mason Keybindings
         m = {"<cmd>Mason<cr>", "Mason"},

@@ -51,6 +51,9 @@ return require('packer').startup(function()
       -- WhichKey
       use 'folke/which-key.nvim'
 
+      -- Auto Close
+      use 'Raimondi/delimitMate'
+
       -- File Management
       use {'kyazdani42/nvim-tree.lua',
         requires = { {'kyazdani42/nvim-web-devicons'} },

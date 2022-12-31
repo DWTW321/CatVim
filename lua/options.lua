@@ -3,7 +3,7 @@ local o   = vim.o
 local opt = vim.opt
 local A   = vim.api
 
-require("impatient")
+--require("impatient")
 
 o.cmdheight = 0
 o.termguicolors = true
@@ -57,6 +57,8 @@ g.medieval_langs = "lua"
 opt.encoding = "utf-8"
 g.mapleader = ' '
 g.maplocalleader = ' '
+g.delimitMate_expand_space = 1
+g.delimitMate_expand_cr = 1
 
 A.nvim_create_autocmd('TextYankPost', {
     group = num_au,
